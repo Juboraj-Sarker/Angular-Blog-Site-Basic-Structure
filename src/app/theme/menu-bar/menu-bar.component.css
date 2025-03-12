@@ -1,0 +1,104 @@
+
+.navsection{
+    /* background: #e6af4b; */
+    background: var(--secondary-color);
+    min-height: 38px;
+}   
+
+.navsection ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navsection ul li{
+    /* border-left: 1px solid #fdc662; */
+    border-left: 1px solid var(--border-color-primary);
+    /* border-right: 1px solid #c18a26; */
+    border-right: 1px solid var(--border-color-primary);
+    display: block;
+    float: left;
+    position: relative;
+}
+.navsection ul li:first-child{
+    /* border-left: 0px solid #fdc662; */
+    border-left: 0px solid var(--border-color-primary);
+}
+.navsection ul li:last-child{
+    /* border-right: 0px solid #c18a26; */
+    border-right: 0px solid var(--border-color-primary);
+}
+
+
+.navsection ul li ul{
+    position: absolute;
+    left: -999999999px;
+    z-index: 999;
+}
+.navsection ul li:hover ul{
+    left: 0px;
+}
+.navsection ul li ul li{
+    /* background: #ca932f; */
+    background: var(--primary-color);
+    width: 200px;
+    /* border-bottom: 1px solid #e6af4b; */
+    border-bottom: 1px solid var(--border-color-primary);
+    float: none;
+    /* border-left: 0px solid #fdc662; */
+    border-left: 0px solid var(--border-color-primary);
+    /* border-right: 0px solid #c18a26; */
+    border-right: 0px solid var(--border-color-primary);
+}
+.navsection ul li ul li:last-child{
+    /* border-bottom: 0px solid #e6af4b; */
+    border-bottom: 0px solid var(--border-color-primary);
+}
+
+.navsection ul li ul li a{
+    cursor: pointer;
+}
+
+
+.navsection ul li a{
+    color: var(--text-color-white);
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -o-transition: .5s;
+}
+
+
+.navsection ul li a:hover, #active{
+    background: var(--button-color);
+    color: var(--text-color-333);
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -o-transition: .5s;
+}
+
+
+.active{
+    background: var(--button-color);
+    color: var(--text-color-333) !important;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -o-transition: .5s;
+    border-left: 1px solid var(--border-color-primary);
+    box-sizing: border-box;
+}
+
+
+marquee{
+    color: var(--text-color-white);
+    margin-top: 10px;
+    font-weight: 555;
+    font-size: 18px;
+}

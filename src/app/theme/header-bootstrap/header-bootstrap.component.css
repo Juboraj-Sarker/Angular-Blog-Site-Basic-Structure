@@ -1,0 +1,79 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.collapse ul li a{
+  font-family: myTitle;
+  
+}
+
+.collapse ul li p{
+  font-family: myTitle;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.myUser{
+  font-family: myTitle;
+  text-align: center;
+  color: #E02D53;
+  font-weight: bold;
+}
+
+.collapse ul li a:hover{
+  color: #000 !important;
+  /* background: #080808 !important; */
+  background: #E02D53 !important;
+  font-weight: 555;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.myactive {
+  color: #fff !important;
+  /* background: #080808 !important; */
+  background: #B01E43 !important;
+  font-weight: 555;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.myBoxSizing {
+  -webkit-box-sizing: border-box !important;
+  -moz-box-sizing: border-box !important;
+  box-sizing: border-box !important;
+}
+
+.myCard {
+  box-shadow: 0 4px 8px 0 #ccc;
+  transition: 0.3s;
+}
+
+a {
+  color: #000 !important;
+}
+
+.myLogo{
+  margin: 0;
+  padding: 0;
+}
+.myLogo img{
+  width: 50px;
+  height: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+}
+
+.mySpan{
+  padding: 5px;
+  background-color: #0d3907;
+  color: #fff;
+
+}

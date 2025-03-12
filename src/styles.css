@@ -1,1 +1,89 @@
-/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+  @font-face {
+    font-family: myTitle; /*a name to be used later*/
+    src: url('../src/assets/fonts/HindSiliguri-Regular.ttf'); /*URL to font*/
+}
+
+  @font-face {
+    font-family: myTitleSemiBold; /*a name to be used later*/
+    src: url('../src/assets/fonts/HindSiliguri-SemiBold.ttf'); /*URL to font*/
+}
+
+  @font-face {
+    font-family: myTitleBold; /*a name to be used later*/
+    src: url('../src/assets/fonts/HindSiliguri-Bold.ttf'); /*URL to font*/
+}
+
+:root {
+    --primary-color: #b1d2f8;
+    --secondary-color: #025A8A;
+    --background-color: #C9DAED;
+    --background-color-job-card: #ddd;
+    --button-color: #3CF;
+    --text-color-black: #556270;
+    --text-color-333: #333;
+    --text-color-title: #025A8A;
+    --text-color-white: #fff;
+    --text-color-red: #ff0000;
+    --text-color-gold: #814a00;
+    --text-color-gold-hober: #df5c25;
+    --border-color-primary: #6991bf;
+    --border-color-secondary: #b1d2f8;
+    --color-ccc: #ccc;
+    --box-shadow-color: rgba(0,0,0,0.2);
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--text-color-black);
+    background: url('../src/assets/images/bg2.webp') repeat fixed 0 0 var(--text-color-white);
+}
+
+.template{
+    width: 960px;
+    background: var(--background-color-job-card);
+    margin: 0 auto;
+    
+}
+
+.clear{
+    overflow: hidden;
+}
+
+
+.contentemplate{
+    width: 928px;
+    margin: 0 auto;
+}
+
+.maincontent{
+    width: 606px;
+    background: var(--background-color);
+    float: left;
+    margin: 0 15px 15px 0;
+    padding: 8px 15px;
+    border: 1px solid var(--border-color-secondary);
+    
+}
+
+
+.contentsection{
+    background: var(--text-color-white);
+    /* border: 1px solid #ca932f; */
+    border-left: 1px solid var(--border-color-primary);
+    border-right: 1px solid var(--border-color-primary);
+    /* border-top: 1px solid #E02D53; */
+    border-bottom: 1px solid var(--border-color-primary);
+    padding: 15px;
+}
+

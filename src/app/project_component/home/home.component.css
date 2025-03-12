@@ -1,0 +1,116 @@
+/* .about{
+} */
+
+.about img {
+  background: var(--text-color-white);
+  /* border: 1px solid #b7801c; */
+  border: 1px solid var(--border-color-primary);
+  float: left;
+  height: 190px;
+  width: 300px;
+  margin-right: 10px;
+  padding: 5px;
+}
+.about p {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+/* .relatedpost{
+
+} */
+.relatedpost h2 {
+  /* background: #e6af4b; */
+  background: var(--secondary-color);
+  /* border-bottom: 2px solid #b7801c !important; */
+  border-bottom: 2px solid var(--border-color-primary) !important;
+  color: var(--text-color-black) !important;
+}
+.relatedpost img {
+  height: 100px;
+  width: 180px;
+  margin-bottom: 10px;
+}
+.relatedpost img:hover {
+  opacity: 0.4;
+}
+/* .samepost{
+
+} */
+
+.samepost h2,
+.about h2 {
+  /* background: #E6AF4B; */
+  background: var(--secondary-color);
+  /* border-bottom: 2px solid #B7801C; */
+  border-bottom: 2px solid var(--border-color-primary);
+  color: var(--text-color-white);
+  margin-bottom: 0px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.samepost img {
+  background: var(--text-color-white);
+  /* width: 200px; */
+  width: 586px;
+  height: 290px;
+  margin-top: 0px;
+}
+
+.samepost p {
+  font-size: 16px;
+  line-height: 23px;
+  text-align: justify;
+  padding-top: 10px;
+}
+.readmore {
+  float: right;
+  margin-top: 10px;
+}
+.readmore a {
+  background: var(--text-color-white);
+  /* border: 1px solid #b7801c; */
+  border: 1px solid var(--border-color-primary);
+  /* color: #b7801c; */
+  color: var(--text-color-title);
+  display: block;
+  font-size: 17px;
+  padding: 4px 8px;
+  text-decoration: none;
+}
+.readmore a:hover {
+  color: var(--text-color-gold-hober);
+}
+
+.postBackground {
+  background: var(--text-color-white);
+  margin-bottom: 20px;
+}
+
+.post {
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 var(--color-ccc);
+  transition: 0.3s;
+}
+
+.post:hover {
+  box-shadow: 0 8px 16px 0 var(--box-shadow-color);
+}
+
+.myPaginator {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+pagination-controls {
+  padding-top: 15px;
+  background: var(--text-color-white);
+}
+
+
+

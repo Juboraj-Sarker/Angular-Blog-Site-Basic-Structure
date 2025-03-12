@@ -1,0 +1,114 @@
+<meta name="viewport" content="width=1024">
+<!-- 2B373D -->
+<nav class="navbar navbar-inverse navbar-fixed-top myBoxSizing myCard" style="background-color: #fff; border: none;">
+  <div class="container-fluid">
+    <!-- <div class="navbar-header myLogo">
+      <img src="../../../assets/images/logo/my-logo.svg" alt="My Logo">
+    </div> -->
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+
+        <li><a [ngClass]="{'myactive' : router.url.includes('/home')}" routerLink="/home">হোম</a></li>
+        <li><a [ngClass]="{'myactive' : router.url.includes('/govtJobs')}" routerLink="/govtJobs">সরকারি চাকরি</a></li>
+
+        <!-- <li class="dropdown">
+          <a [ngClass]="{'myactive' : router.url.includes('/govtBanks') || router.url.includes('/pvtBanks')}"
+            class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+            aria-expanded="false">ব্যাংকের চাকরি <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a [ngClass]="{'myactive' : router.url.includes('/govtBanks')}" routerLink="/govtBanks">সরকারি ব্যাংক</a>
+            </li>
+            <li><a [ngClass]="{'myactive' : router.url.includes('/pvtBanks')}" routerLink="/pvtBanks">প্রাইভেট
+                ব্যাংক</a></li>
+          </ul>
+        </li> -->
+
+        <li><a [ngClass]="{'myactive' : router.url.includes('/govtBanks') || router.url.includes('/pvtBanks')}" routerLink="/govtBanks">ব্যাংকের চাকরি</a></li>
+
+        <!-- <li class="dropdown">
+          <a [ngClass]="{'myactive' : router.url.includes('/govtICT') || router.url.includes('/pvtICT')}"
+            class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+            aria-expanded="false">আইসিটি চাকরি
+            <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a [ngClass]="{'myactive' : router.url.includes('/govtICT')}" routerLink="/govtICT">সরকারি আইসিটি
+                চাকরি</a></li>
+            <li><a [ngClass]="{'myactive' : router.url.includes('/pvtICT')}" routerLink="/pvtICT">প্রাইভেট আইসিটি
+                চাকরি</a></li>
+          </ul>
+        </li> -->
+
+        <li><a [ngClass]="{'myactive' : router.url.includes('/govtICT') || router.url.includes('/pvtICT')}" routerLink="/govtICT">আইসিটি চাকরি</a></li>
+
+        <li><a [ngClass]="{'myactive' : router.url.includes('/universityJobs')}" routerLink="/universityJobs">বিশ্ববিদ্যালয়ের চাকরি</a></li>
+        <li><a [ngClass]="{'myactive' : router.url.includes('/pvtJobs')}" routerLink="/pvtJobs">প্রাইভেট চাকরি</a></li>
+        
+        <li class="dropdown">
+          <a [ngClass]="{'myactive' : router.url.includes('/examNotice') || router.url.includes('/admitNotice') || router.url.includes('/examResult')}"
+            class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">নোটিশ
+            <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a [ngClass]="{'myactive' : router.url.includes('/examNotice')}" routerLink="/examNotice">আসন্ন পরীক্ষা</a></li>
+            <li><a [ngClass]="{'myactive' : router.url.includes('/admitNotice')}" routerLink="/admitNotice">প্রবেশপত্র ডাউনলোড</a></li>
+            <li><a [ngClass]="{'myactive' : router.url.includes('/examResult')}" routerLink="/examResult">পরীক্ষার ফলাফল</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a [ngClass]="{'myactive' : router.url.includes('/bcsQuesBank') || router.url.includes('/bankQues') || router.url.includes('/othersQues')}"
+            class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">প্রশ্ন ব্যাংক
+            <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a [ngClass]="{'myactive' : router.url.includes('/bcsQuesBank')}" routerLink="/bcsQuesBank">বিসিএস পরীক্ষার প্রশ্ন</a></li>
+            <li><a [ngClass]="{'myactive' : router.url.includes('/bankQues')}" routerLink="/bankQues">ব্যাংক পরীক্ষার প্রশ্ন</a></li>
+            <li><a [ngClass]="{'myactive' : router.url.includes('/othersQues')}" routerLink="/othersQues">অন্যান্য পরীক্ষার প্রশ্ন</a></li>
+          </ul>
+        </li>
+
+        <li><a [ngClass]="{'myactive' : router.url.includes('/modelTest')}" routerLink="/modelTest">মডেল টেস্ট</a></li>
+
+
+        <!-- <li class="dropdown">
+          <a [ngClass]="{'myactive' : router.url.includes('/about') || router.url.includes('/contact')}" class="dropdown-toggle"
+            data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">আমাদের সম্পর্কে <span
+              class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a [ngClass]="{'myactive' : router.url.includes('/about')}" routerLink="/about">আমাদের সম্পর্কে</a></li>
+            <li><a [ngClass]="{'myactive' : router.url.includes('/contact')}" routerLink="/contact">যোগাযোগ</a></li>
+          </ul>
+        </li> -->
+
+        <li class="dropdown">
+          <a [ngClass]="{'myactive' : router.url.includes('/login') || router.url.includes('/profile') || router.url.includes('/dashboard')}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+            aria-expanded="false">প্রোফাইল<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <p *ngIf="isLoggedIn">Signed in as <br><span class="myUser">JUBORAJ SARKER</span></p>
+            <li *ngIf="isLoggedIn" role="separator" class="divider"></li>
+            <li *ngIf="!isLoggedIn"><a [ngClass]="{'myactive' : router.url.includes('/login')}" routerLink="/login">সাইন ইন করুন</a></li>
+            <li><a [ngClass]="{'myactive' : router.url.includes('/profile')}" routerLink="/profile">আমার প্রোফাইল</a></li>
+            <li><a [ngClass]="{'myactive' : router.url.includes('/dashboard')}" routerLink="/dashboard">আমার ড্যাশবোর্ড</a></li>
+            <li *ngIf="isLoggedIn" role="separator" class="divider"></li>
+            <li *ngIf="isLoggedIn"><a style="cursor: pointer;">সাইন আউট</a></li>
+          </ul>
+        </li>
+
+      </ul>
+
+
+
+      <!-- <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button style="margin-left: 5px;" type="submit" class="btn btn-default">Search</button>
+      </form> -->
+
+
+
+
+
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>

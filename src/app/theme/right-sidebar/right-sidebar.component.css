@@ -1,0 +1,87 @@
+
+
+.sidebar{
+    width: 253px;
+    background: var(--background-color); 
+    /* fef4e5 */
+    border: 1px solid var(--border-color-secondary);
+    float: right;
+    margin-bottom: 15px;
+    margin-top: 0;
+    padding: 10px;
+}
+
+.samesidebar{
+    margin-bottom: 10px;
+}
+
+.popular h3{
+    /* border-bottom: 1px dotted #b7801c; */
+    border-bottom: 1px dotted var(--border-color-primary);
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+.popular h3 a{
+    text-decoration: none;
+    color: var(--text-color-333);;
+}
+.popular img{
+    height: 125px;
+    width: 100%;
+}
+.popular p{
+    text-align: justify;
+}
+
+.samesidebar h2{
+    /* background: #e6af4b ; */
+    background: var(--secondary-color);
+    /* border-bottom: 2px solid #b7801c; */
+    border-bottom: 2px solid var(--border-color-primary);
+    color: var(--text-color-white);
+    margin-bottom: 8px;
+    padding: 10px;
+}
+.samesidebar ul{
+    padding: 0; margin: 0; list-style: none;
+}
+.samesidebar ul li{
+    border-bottom: 1px dashed var(--button-color);
+    font-size: 16px;
+    padding: 5px 8px 5px 0;
+}
+.samesidebar ul li:last-child{
+    border-bottom: 0px dashed var(--button-color);
+}
+.samesidebar ul li a{
+    color: var(--text-color-gold);
+    text-decoration: none;
+}
+.samesidebar ul li a:hover{
+    color: var(--text-color-gold-hober);
+}
+.samesidebar p{
+    margin-bottom: 10px;
+}
+
+
+.postBackground{
+    background: var(--text-color-white);
+    margin-bottom: 30px;
+}
+
+.postContainer{
+    padding: 10px;
+}
+
+.post{
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 var(--color-ccc);
+    transition: 0.3s;
+}
+
+.post:hover {
+  box-shadow: 0 8px 16px 0 var(--box-shadow-color);
+}

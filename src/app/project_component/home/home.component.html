@@ -1,0 +1,41 @@
+<div class="maincontent clear">
+
+
+    <div class="samepost clear postBackground post"
+        *ngFor="let item of myPost | paginate: { itemsPerPage: itemsPerPage, currentPage: page }; let i = index">
+       
+            <h2>{{item.title}}</h2>
+            <img src="../../../assets/images/img1.jpg" alt="Post image" class="clear">
+            <p>{{item.bodyText}}</p>
+            <!-- <div class="readmore clear"><a (click)="test()" routerLink="/jobDetails">Readmore</a></div> -->
+            <div class="readmore clear"><a (click)="test()">Readmore</a></div>
+        
+    </div>
+
+    <!-- <div class="samepost clear">
+        <h2>Our post title here</h2>
+        <img src="../../../assets/images/img2.jpg" alt="Post image">
+        <p>The quick brown fox jumps over the lazy dog. Hello World. Sidebar text will go here. The quick brown
+            fox jumps over the lazy dog. Hello World. Sidebar text will go here. The quick brown fox jumps over
+            the lazy dog. Hello World. Sidebar text will go here. The quick brown fox jumps over the lazy dog.
+            Hello World. Sidebar text will go here</p>
+        <div class="readmore clear"><a routerLink="/jobDetails">Readmore</a></div>
+    </div>
+
+    <div class="samepost clear">
+        <h2>Our post title here</h2>
+        <img src="../../../assets/images/img3.jpg" alt="Post image">
+        <p>The quick brown fox jumps over the lazy dog. Hello World. Sidebar text will go here. The quick brown
+            fox jumps over the lazy dog. Hello World. Sidebar text will go here. The quick brown fox jumps over
+            the lazy dog. Hello World. Sidebar text will go here. The quick brown fox jumps over the lazy dog.
+            Hello World. Sidebar text will go here</p>
+        <div class="readmore clear"><a routerLink="/jobDetails">Readmore</a></div>
+    </div> -->
+
+
+<div class="clear myPaginator">
+    <pagination-controls (pageChange)="page = $event"></pagination-controls>
+</div>
+
+</div>
+

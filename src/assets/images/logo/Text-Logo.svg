@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 306.11 51.05">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #e02d53;
+      }
+
+      .cls-4 {
+        font-family: SourceSans3-ExtraBold, 'Source Sans 3';
+        font-size: 45.66px;
+        font-variation-settings: 'wght' 800;
+        font-weight: 700;
+      }
+
+      .cls-5 {
+        fill: #e32141;
+      }
+
+      .cls-2 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-6 {
+        fill: #231f20;
+      }
+    </style>
+  </defs>
+  <g>
+    <circle class="cls-5" cx="37.62" cy="22.89" r="13.93"/>
+    <circle class="cls-1" cx="37.62" cy="22.89" r="9.21"/>
+    <circle class="cls-5" cx="37.62" cy="22.89" r="4.53"/>
+    <circle class="cls-1" cx="37.62" cy="22.89" r="1.79"/>
+  </g>
+  <text class="cls-4" transform="translate(0 37.9)"><tspan class="cls-1" x="0" y="0" xml:space="preserve">J   B N</tspan><tspan class="cls-2" x="118.35" y="0">O</tspan><tspan class="cls-1" x="148.44" y="0">TICE</tspan><tspan class="cls-6" x="239.99" y="0"> </tspan><tspan class="cls-3" x="249.12" y="0">BD</tspan></text>
+</svg>

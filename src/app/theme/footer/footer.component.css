@@ -1,0 +1,31 @@
+
+.footersection{
+    height: 90px;
+    /* background: #b7801c; */
+    background: var(--primary-color);
+    text-align: center;
+}
+.footermenu{
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+.footermenu ul{
+    padding: 0; 
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+.footermenu ul li{
+    display: inline-block;
+}
+.footermenu ul li a{
+    /* color: #e6af4b; */
+    color: var(--text-color-white);
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.footersection p{
+    color: var(--text-color-white);
+    font-weight: bold;
+}
